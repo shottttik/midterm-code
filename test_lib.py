@@ -3,7 +3,6 @@ from lib import QuadraticEquationSolver
 from pytest import approx, raises
 
 
-
 def test_0_0_0():
     with raises(ZeroDivisionError) as e:
         QuadraticEquationSolver(0, 0, 0).solve()
