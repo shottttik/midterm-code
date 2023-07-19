@@ -12,6 +12,7 @@ def test_p1_0_0():
     assert QuadraticEquationSolver(1, 0, 0).solve() == [0]
 
 
+
 def test_p1_0_n5():
     assert QuadraticEquationSolver(1, 0, -5).solve() == [
         approx(5**0.5),
